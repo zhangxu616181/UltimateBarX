@@ -1,4 +1,4 @@
-package com.zackratos.ultimatebarx.library.extension
+package com.zackratos.ultimatebarx.library
 
 import android.content.Context
 import android.graphics.Color
@@ -11,9 +11,9 @@ import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.LifecycleOwner
-import com.zackratos.ultimatebarx.library.UltimateBarXManager
-import com.zackratos.ultimatebarx.library.UltimateBarXObserver
 import com.zackratos.ultimatebarx.library.bean.BarConfig
+import com.zackratos.ultimatebarx.library.extension.barTransparent
+import com.zackratos.ultimatebarx.library.extension.getColorInt
 import com.zackratos.ultimatebarx.library.view.*
 
 /**
